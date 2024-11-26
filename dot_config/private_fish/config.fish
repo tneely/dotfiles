@@ -9,5 +9,6 @@ set -Ux EDITOR hx
 
 
 if status is-interactive
-    # Commands to run in interactive sessions can go here
+    jj util completion fish | source
+    starship init fish | source
 end

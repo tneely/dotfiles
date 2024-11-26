@@ -17,7 +17,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Terminal Apps
-install "alacritty" "fish" "zellij" "helix" "git-delta" "jj"
+install "alacritty" "fish" "zellij" "helix" "git-delta" "jj" "starship"
 
 # Mise
 curl https://mise.run | sh
