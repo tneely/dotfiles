@@ -1,0 +1,8 @@
+[window]
+option_as_alt = "Both"
+
+[terminal]
+
+[terminal.shell]
+program = "/opt/homebrew/bin/fish"
+args = ["--login", "--command", "zellij"]

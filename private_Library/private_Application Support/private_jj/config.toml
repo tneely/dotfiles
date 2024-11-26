@@ -1,0 +1,9 @@
+[user]
+name = "Taylor Neely"
+email = "tneely417@gmail.com"
+
+[ui]
+pager = "delta"
+
+[ui.diff]
+format = "git"
